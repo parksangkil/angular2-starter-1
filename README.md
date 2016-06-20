@@ -46,3 +46,7 @@ Baqend's feature set includes:
 * User Authentication and OAuth
 * File Storage and Hosting
 * Access Control on Object and Schema Level
+
+#License
+
+[MIT](https://github.com/Baqend/angular2-starter/blob/master/LICENSE) 
