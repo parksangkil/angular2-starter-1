@@ -1,4 +1,4 @@
-!["Logo"](https://raw.githubusercontent.com/Baqend/angular2-starter/master/src/assets/logo.png)
+!["Logo"](https://raw.githubusercontent.com/Baqend/angular2-starter/master/src/assets/logo.jpg)
 
 #Angular2 and Baqend Starter
 
