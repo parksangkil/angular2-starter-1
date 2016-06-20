@@ -11,4 +11,27 @@ import {db} from "../db";
 
 export class HomeComponent {
 
+  user = {
+    name: '',
+    password: ''
+  };
+  db = db;
+  error;
+
+  register() {
+    db.User.register(this.user.name, this.user.password).then(() => {
+      this.error = null;
+    }, (error) => {
+      this.error = error.message;
+    });
+  }
+
+  logIn() {
+    db.User.login(this.user.name, this.user.password).then(() => {
+      this.error = null;
+    }, (error) => {
+      this.error = error.message;
+    });
+  }
+
 }
