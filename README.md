@@ -7,7 +7,7 @@ This is an Angular2 and Baqend starter kit to build **blazingly fast single page
 * [**Webpack**](http://webpack.github.io) as a great module bundler
 * [**SASS**](http://sass-lang.com) as a CSS precompiler with cool features and syntax
 * [**TypeScript**](https://www.typescriptlang.org) for typed JavaScript, ES6 features and because it is recommended for Angular2
-* [**Bootstrap**](http://getbootstrap.com) for easy moder styling
+* [**Bootstrap**](http://getbootstrap.com) for easy modern styling
 * [**Baqend**](http://www.baqend.com) as a fully managed backend service for backend-less development
 
 ## How do I use the template?
