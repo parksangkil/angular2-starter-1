@@ -1,5 +1,6 @@
 !["Logo"](https://raw.githubusercontent.com/Baqend/angular2-starter/master/src/assets/logo.jpg)
 
+
 #Angular2 and Baqend Starter
 
 This is an Angular2 and Baqend starter kit to build **blazingly fast single page applications**. It is based on the [Angular2 Webpack Starter](https://github.com/AngularClass/angular2-webpack-starter) and uses:
