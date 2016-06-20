@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+  <title><%= webpackConfig.metadata.title %></title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="<%= webpackConfig.metadata.title %>">
+
+  <!-- end favicon -->
+
+  <!-- base url -->
+  <base href="<%= webpackConfig.metadata.baseUrl %>">
+
+  <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico">
+  <% if (webpackConfig.metadata.ENV === 'development') { %>
+  <style>
+    .splash {
+      display: none;
+    }
+  </style>
+  <% } %>
+
+</head>
+
+<body class="fixed-navbar">
+
+  <app>
+    <div class="splash">
+      <div class="splash-title">
+        <svg class="bg-logo" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><g fill="#ffb606"><path d="M16.83 28.82c-2.917-2.646-3.65-5.606-1.96-7.922l.02-.028c.957-1.198 2.092-1.8 3.384-1.8 2.068 0 3.92 1.6 5.077 2.89 1.16-1.292 3.013-2.893 5.08-2.893 1.295 0 2.43.6 3.376 1.785l.03.04c1.71 2.345.99 5.236-1.974 7.936l-6.543 6.115-6.49-6.124z"></path><path d="M36.982 31.236l9.037-8.458c4.05-3.69 5.047-7.41 2.81-10.477l-.02-.022C47.608 10.768 46.183 10 44.585 10c-3.306 0-6.39 3.356-7.625 4.905-1.24-1.552-4.274-4.897-7.573-4.897-1.6 0-3.02.766-4.228 2.276l-.02.024c-1.466 2.01-1.648 3.698-.457 6.113 1.288-.983 2.64-1.333 4.076-1.333 3.375 0 6.53 3.592 5.965 7.158-.26 1.74-1 2.95-1.398 3.54l3.654 3.452zM16.544 46.688v-9.98h1.07v9.98h-1.07zm4.356-4.6v4.602h-1.067l.012-7.29H20.9v1.286s.766-.857 1.902-1.285c.096.3.246.705.355 1.024-1.16.43-2.258 1.664-2.258 1.664zm8.637-2.688h1.184l-3.74 10.598H25.8l1.12-3.31-2.71-7.288h1.103l2.213 5.812 2.01-5.812zm7.806 0l1.48 5.81 1.585-5.81h1.082l-2.07 7.303h-1.266l-1.495-5.49-1.437 5.49H34.01L31.896 39.4h1.156l1.533 5.81 1.455-5.81h1.303z"></path><path d="M13.758 39.303c-2.075 0-3.758 1.682-3.758 3.758s1.683 3.76 3.758 3.76c2.076 0 3.758-1.683 3.758-3.76 0-2.075-1.682-3.756-3.758-3.756zm0 6.413c-1.467 0-2.655-1.188-2.655-2.655 0-1.466 1.188-2.653 2.655-2.653 1.467 0 2.656 1.188 2.656 2.655 0 1.467-1.188 2.656-2.656 2.656z"></path></g></svg>
+        <div class="spinner">
+          <div class="rect1"></div> <div class="rect2"></div> <div class="rect3"></div> <div class="rect4"></div> <div class="rect5"></div>
+        </div>
+      </div>
+    </div>
+  </app>
+
+  <% if (webpackConfig.metadata.ENV === 'development') { %>
+  <!-- Webpack Dev Server reload -->
+  <script src="/webpack-dev-server.js"></script>
+  <% } %>
+
+</body>
+</html>
