@@ -2,8 +2,9 @@
 
 
 #Angular2 and Baqend Starter
+With this Angular2 and Baqend starter kit you can build **blazingly fast single page applications** in no time. Setup your project by following the simple steps below.
 
-This is an Angular2 and Baqend starter kit to build **blazingly fast single page applications**. It is based on the [Angular2 Webpack Starter](https://github.com/AngularClass/angular2-webpack-starter) and uses:
+The starter is based on the [Angular2 Webpack Starter](https://github.com/AngularClass/angular2-webpack-starter) and uses:
 
 * [**Webpack**](http://webpack.github.io) as a great module bundler
 * [**SASS**](http://sass-lang.com) as a CSS precompiler with cool features and syntax
@@ -11,7 +12,7 @@ This is an Angular2 and Baqend starter kit to build **blazingly fast single page
 * [**Bootstrap**](http://getbootstrap.com) for easy modern styling
 * [**Baqend**](http://www.baqend.com) as a fully managed backend service for backend-less development
 
-## How do I use the template?
+## How to use the template
 
 1. Make sure you have [Node.js](https://nodejs.org/en/) installed on your machine
 2. Clone this repository with `git clone https://github.com/Baqend/angular2-starter.git`
@@ -29,7 +30,7 @@ To develop your own application
 4. To start accessing data or backend features, simply import the `db`-object with `import {db} from "../db";` and see our [Guide](http://www.baqend.com/guide/#accessing-data) and [API Docs](http://www.baqend.com/js-sdk/latest/baqend.html) for details
 
 
-## How does the Baqend integration into Angular2 work?
+## How the Baqend integration into Angular2 works
 
 Before the Angular2 app starts, a connection to the Baqned instance is established in `src/main.browsers.ts`. The `src/db.ts` exports the `db`-object, which lets your access the Baqend API and can be imported with `import {db} from "../db";` into any component.
 
