@@ -29,6 +29,7 @@ To develop your own application
 3. Your Angular2 app will automatically connect to your app instance
 4. To start accessing data or backend features, simply import the `db`-object with `import {db} from "../db";` and see our [Guide](http://www.baqend.com/guide/#accessing-data) and [API Docs](http://www.baqend.com/js-sdk/latest/baqend.html) for details
 
+For more information: on [Angular2](https://angular.io/docs/ts/latest/), the structure of this [project](https://github.com/AngularClass/angular2-webpack-starter) or [Baqend](http://www.baqend.com).
 
 ## How the Baqend integration into Angular2 works
 
